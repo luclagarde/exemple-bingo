@@ -3,6 +3,9 @@ input.onButtonPressed(Button.A, function () {
     basic.showString("" + (Valeur))
     Numéros.removeAt(Numéros.indexOf(Valeur))
 })
+input.onButtonPressed(Button.B, function () {
+    basic.showString("" + (Valeur))
+})
 let Valeur = ""
 let Numéros: string[] = []
 Numéros = [
