@@ -1,7 +1,6 @@
 input.onButtonPressed(Button.A, function () {
-    Valeur = Numéros._pickRandom()
+    Valeur = Numéros.removeAt(randint(0, Numéros.length))
     basic.showString("" + (Valeur))
-    Numéros.removeAt(Numéros.indexOf(Valeur))
 })
 input.onButtonPressed(Button.B, function () {
     basic.showString("" + (Valeur))
@@ -23,8 +22,11 @@ Numéros = [
 "B12",
 "B13",
 "B14",
-"B15"
+"B15",
+"I16",
+"I17",
+"I18",
+"I19",
+"I20",
+"I21"
 ]
-basic.forever(function () {
-	
-})
